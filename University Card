@@ -1,0 +1,27 @@
+#Task is to create a University Card
+
+#Prompting User For Information
+Candidate_Name = input("Enter You Name: ")
+Roll_Number = input("Enter Your Roll Number: ")
+Diploma_Enrolled = input("Your Couse Name: ")
+Batch = input("Batch No. ")
+Father_Name = input("Enter Your Father's Name: ")
+Contact_Number = input("Your Contact Number: ")
+Email = input("Your Email Address: ")
+print("\n")
+print("Thank you " + Candidate_Name, "You entered the details as below: ")
+print("\n")
+print("===============================================")
+print("\n")
+
+card = (f'''\t\tWelcome to NED Univeristy: \n 
+\t\tCandidate Name \t\t= \t{Candidate_Name}
+\t\tRoll Number \t\t= \t{Roll_Number}
+\t\tDiploma Enrolled \t= \t{Diploma_Enrolled}
+\t\tBatch No. \t\t\t= \t{Batch}
+\t\tFather's Name \t\t= \t{Father_Name}
+\t\tContact Number \t\t= \t{Contact_Number}
+\t\tEmail Address\t\t= \t{Email}
+''')
+
+print(card)
